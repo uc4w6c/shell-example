@@ -1,0 +1,7 @@
+version: '2'
+services:
+  shell:
+    build: .
+    tty: true
+    volumes:
+      - ./shell/:/var/tmp/shell
